@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-import UsersAdd from "./components/UsersAdd/UsersAdd";
-import UsersList from "./components/UsersList/UsersList";
+import AddUsers from "./components/Users/AddUsers";
+import Card from "./components/UI/Card";
 
 function App() {
-  return <div></div>;
+  return (
+    <Card>
+      <AddUsers />
+    </Card>
+  );
 }
 
 export default App;
