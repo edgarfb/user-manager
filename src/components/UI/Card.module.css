@@ -1,6 +1,10 @@
 .card {
     background-color: white;
-    margin: 5rem;
+    margin: 2rem auto;
     border-radius: 6px;
-    padding: 1rem;
+    width: 50%;
+    /* padding: 1rem; */
+    
 }
+
+
